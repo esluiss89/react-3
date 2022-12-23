@@ -1,13 +1,82 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.formulario {
+    text-align: center;
+    background-color: rgb(44, 141, 94);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.form {
+    margin: 20px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.inputAgregar {
+    margin: 10px;
+}
+
+.buscador {
+    display: flex;
+    justify-content: center;
+    height: 50px;
+    align-items: center;
+    background-color: rgb(85, 85, 85);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.buscador h4 {
+    color: whitesmoke;
+    margin-left: 20px;
+}
+
+.buscador button {
+    margin: 10px;
+}
+
+.buscador input {
+    margin: 10px;
+}
+
+.buscador p {
+    margin: 10px;
+    margin-left: 40px;
+    color: whitesmoke;
+}
+
+.displayList {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.list {
+    display: flex;
+}
+
+.resultado {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+h1 {
+    margin: 20px;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.agregar {
+    padding: 20px;
+
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+
+.agregar button {
+    margin-top: 10px;
 }
